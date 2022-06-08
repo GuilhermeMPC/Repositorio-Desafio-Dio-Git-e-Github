@@ -10,5 +10,10 @@ Aqui listarei as aulas que já tive e dentro de cada pasta haverá o conteúdo a
 - Introdução ao Git e ao GitHub [X]
 - [Desafio] Criando seu primeiro repositório no GitHub para compartilhar seu progresso [X]
 
+
+
 ## Módulo II - HTML/CSS3 [ ]
-- Primeiros passos para desenvolvimento Web [ ]
+
+- Primeiros passos para desenvolvimento Web [X]
+- Introdução a criação de websites com HTML5 e CSS3 [ ]
+

@@ -1,0 +1,28 @@
+Comandos importantes:
+
+- cd = change directory ---> Utilizado para navegar entre pastas
+
+- dir/ls ---> Lista as pastas e arquivos que estão naquele diretório
+
+- mkdir ---> Cria uma nova pasta
+
+- del ---> Deleta arquivos
+
+- rmdir ---> Apaga a pasta (colocar "/S /Q" para apagar junto todo conteúdo que está dentro)
+
+###Exclusivos Git
+
+git init ---> Cria um repositório
+git add ---> Move o arquivo/repositório para o Stage (pré-commit)
+git commit ---> Cria o commit
+git push ---> Envia repositório para o Github
+git pull ---> Recebe o repositório mais atualizado do GitHub
+
+
+Objetos Git:
+
+Blob ---> Menor objeto, geralmente arquivos
+
+Tree ---> São pastas que contém arquivos ou outras pastas
+
+Commit ---> É todo o repositório já pronto para ser enviado para o repositório remoto

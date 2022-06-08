@@ -1,0 +1,72 @@
+HTML <--- Linguagem de marcação da internet (Não é linguagem de programação)
+Keylogger <--- Vírus que se instala na máquina e captura tudo que é digitado.
+Pishing <--- Golpe na internet no qual simula ser, por exemplo, uma empresa para roubar os seus dados.
+Firewall <--- Impede acesso indevido ao computador
+
+
+--------------------------------------------
+
+#TCP/IP, portas, roteadores, switches e modems
+
+
+TCP <--- Transmission Control Protocol
+IP <--- Internet Protocol
+
+Uma conexão entre dispositivo precisa passar por 4 camadas para concluir a conexão
+
+1 - Física (ex: cabo de rede)
+2 - Rede (ex: IP de cada dispositivo)
+3 - Transporte(ex: TCP, UDP)
+
+	> UDP: 
+		- Rápido
+		- Não confiável (coisas podem se perder facilmente)
+		- Não sabe quem está recebendo e se está recebendo (Ex: Carro do ovo)
+		- Livestream (É bom pois não precisa saber se a pessoa está recebendo o serviço e a velocidade é mais rápida)
+	> TCP:
+		- Voltado à conexão
+		- Handshake (Confirma se um dispositivo está conectado com o outro, confirmando se um pode enviar e outro pode 
+		receber o pacote)
+		- Integridade, ordem dos dados
+		- Aplicativo de mensagens de texto (é bom pois é ordenado e confirma que a pessoa receberá a mensagem)
+
+4 - Aplicação (ex: FTP, SMTP, HTTP)
+
+	> São as 'portas' por onde chegarão os dados.
+
+	> 20 -> FTP
+	  22 -> SSH
+	  25 -> SMTP
+	  53 -> DNS
+	  80 -> HTTP
+	  443 -> HTTPS
+
+Modem ---> Hardware que converte dados em um formato que pode ser transmitido de um dispositivo para outro.
+Roteador ---> Distribui internet para um ou mais dispositivos e também faz conexão entre redes. Distribui os pacotes 
+entre todos os usuários da rede (hoje alguns roteadores são mais inteligente e separam os pacotes)
+Switch ---> Switch faz a mesma coisa que o roteador, mas enviam os pacotes apenas para que solicitou.
+
+
+
+--------------------------------------------
+
+#LP e termos.
+
+> Termos comuns:
+
+- 404: Erro mais famoso, aparece quando a página não existe
+- ALT: Texto alternativo, aparece quando é deixado o mouse em cima de algum elemento da página e aparece um textinho (Geralmente utilizado para SEO)
+- API: Parte/funcionalidade de um site que pode ser utilizado em outro site (Ex: caixa de login do Facebook)
+- Biblioteca/DLL: Conjunto de ferramentas disponíveis que nos permitem realizar ações. (Ex: Para manipular Banco de Dados)
+- Deploy: Pacote que é enviado para ser publicado (Pode ser uma parte da aplicação ou toda a aplicação)
+- DNS: Tradutor de nome de site para IP e vice-versa
+- DPI: Proporção de pontos na tela
+- Framework: "Caixa de ferramentas" que está disponível para criar o seu software
+- FTP: Protocolo de comunicação, quase exclusivo para transferência de arquivos.
+- MVC: Model View Controller ->  Arquitetura de dados que separa o Model (Banco de dados), View (Front-end) e o Controller (Back-end)
+- MVP: Minimal Viable Product ->  Minímo que o software precisa para que já possa ser testado
+- SSL: Camada de segurança dos sites
+- WYSIWYG: What you see is what you get -> São pequenos editores de texto no site que fazem alterações estéticas e aprensentam exatamente como ficará após enviado.
+
+--------------------------------------------
+
