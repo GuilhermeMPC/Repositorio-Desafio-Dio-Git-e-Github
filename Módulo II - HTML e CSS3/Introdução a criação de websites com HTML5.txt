@@ -1,0 +1,73 @@
+------
+ HTML
+------
+
+> Estrutura Básica>
+
+<!DOCTYPE html> (não é um elemento, apenas diz ao navegador que é um HTML)
+<html>
+ <head> (possui metainformações, que são informações que o navegador e buscadores necessitam)
+  <meta> (são os metadados da página, exemplo o charset, que traz o encode para o navegador)
+  <title></title> (título na página na aba)
+ </head>
+ <body> (conteúdo da página)
+ </body>
+<html>
+
+
+> Semântica:
+
+<section> - representa seção genérica de conteúdo (como lista de artigos)
+<header> - cabeçalho da pagina ou parte da página
+<article> - conteúdo relevante da página
+<aside> - conteúdo relacionado ao conteúdo principal da página (como biografia do autor ou links relacionados)
+<footer> - rodapé
+<h1>-<h6> - representam a importância de um título da página (só pode haver um h1 por página)
+
+
+> Tags para textos:
+
+<h1>Título da página</h1>
+<h2>Título da seção</h2>
+<h3>Título de artigo</h3>
+
+<p>Conteúdo do artigo.</p>  --> Pode ser texto, imagem, vídeo etc.
+
+<a>Link</a> 
+	
+	<a href-""></a>  --> Hiperlinks
+
+		<a href="google.com">Google</a>
+		<a href="mailto>guilherme.midea@hotmail.com">E-mail</a>
+
+	<a target="_blank">Link</a>  --> Indica a forma que será aberto link (nesse caso, em uma nova aba)
+
+	** São colocados na mesma linha**
+
+> Imagens
+
+<img>  --> possui apenas dois atributos
+
+	<img src="img/avatar.jpg">  --> é obrigatório, serve para colocar a imagem
+	<img alt="Foto de Guilherme Midea">  --> Não é obrigatório, mas é recomendado para acessilibidade e SEO, descreve a imagem.
+
+
+> Listas
+
+Servem para agrupar coleção de itens
+
+<ul>  --> a ordem da lista não importa
+item 1
+item 2
+
+<ol> --> a ordem da lista importa
+1. item 1
+2. item 2
+
+<li>  --> são os elementos da lista
+
+
+
+
+
+

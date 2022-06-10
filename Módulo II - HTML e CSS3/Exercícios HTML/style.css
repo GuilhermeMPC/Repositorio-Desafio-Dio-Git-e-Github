@@ -1,0 +1,89 @@
+body {
+    background: #ccc ;
+    margin: auto;
+    max-width: 900px
+}
+
+
+.subtitle, .posttitle {
+    color: black;
+    font-weight: bold;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.posttitle{
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    border: 3px dashed black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabeçalho {
+    padding: 15px;
+    margin-bottom: 1px;
+    border: 3px solid yellow;
+    background: black;
+    width: 100%;
+}
+
+.content {
+    margin: 0;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#title {
+    color: whitesmoke;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.contatos { 
+    font-size: 18px;
+
+}
+
+.photo {
+    border-radius: 50%;
+    border: 3px solid yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.imgpost {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.footer {
+
+  
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+
+}

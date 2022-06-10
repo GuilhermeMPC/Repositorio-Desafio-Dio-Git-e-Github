@@ -1,0 +1,27 @@
+-----
+ CSS
+-----
+
+> É uma linguagem de estilo
+> Você cria regras de estilo para elementos ou grupo de elementos
+
+> Estrutura
+
+	- É formada por um grupo de seletores > ex: a, p, h1, h3 (elementos HTML)
+	- É aberto um par de chaves
+	- São escritas as declarações dentro das chaves, por exemplo: color, font-siz
+
+	ex:
+		a, p, h1, h3 {
+		 color: blue;
+		 font-size: 14px;
+		}
+
+
+> Box model: são "caixas" dos elementos HTML em que podemos alterar a aparência
+	- Possui 4 áreas:
+		- Margin: Espaçamentos entre elementos
+		- Border: Circunda o Padding e Conteúdo, podemos alterar espaçamento e cor
+		- Padding: Espaçamento entre a Borda e o Conteúdo
+		- Content: Imagem, texto ou vídeo.
+

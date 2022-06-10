@@ -12,8 +12,27 @@ Aqui listarei as aulas que já tive e dentro de cada pasta haverá o conteúdo a
 
 
 
-## Módulo II - HTML/CSS3 [ ]
+## Módulo II - HTML/CSS3 [X]
 
 - Primeiros passos para desenvolvimento Web [X]
-- Introdução a criação de websites com HTML5 e CSS3 [ ]
+- Introdução a criação de websites com HTML5 e CSS3 [X]
+
+
+
+## Módulo III - Javascript [ ]
+
+- IDE Instalação e Configuração (Visual Studio Code) [ ]
+- Introdução ao JavaScript [ ]
+- Sintaxe Básica em JavaScript [ ]
+- Sintaxe e Operadores [ ]
+- Variáveis e Tipo [ ]
+- Funções [ ]
+- Debugging e Error Handling [ ]
+- JavaScript Assíncrono [ ] 
+- Orientação a objetos [ ]
+- Manipulando a D.O.M com JavaScript [ ]
+
+
+
+
 
