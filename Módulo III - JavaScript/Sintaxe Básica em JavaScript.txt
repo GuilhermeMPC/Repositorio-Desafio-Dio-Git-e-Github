@@ -1,0 +1,218 @@
+---------
+ Sintaxe
+---------
+
+> Tipagem: definir o tipo do dado.
+
+	<Js já entende que, por exemplo, o número 1 é um número e se estiver com "aspas" é uma string.
+
+
+> Variáveis:
+
+	Podem ser guardadas as tipagens:
+		Booleanas: true/false
+		Undefined: null
+		Number: 1, 2, 3, 3.4, 10.9
+		String: "Eu", "Olá", "Hello World!", "1"
+		Array: [1,"string",["array1","array2"], true]
+		Object:
+		Function:
+
+> Como declarar variáveis:
+
+	var: global e local, pode ter seu valor alterado. Se não tiver um valor inicial, será tratada como null.
+	let: escopo local de bloco, pode ter seu valor alterado. Se não tiver um valor inicial, será tratada como null.
+	const: escopo local de bloco, não pode ter seu valor alterado e é obrigatório um valor inicial.
+
+
+> Escopos:
+
+	Define a limitação e visibilidade de um bloco de código.
+
+		Escopo Global: quando a variável é declarada fora de bloco, sua visibilidade fica disponível em todo o código.
+		Escopo Local: (dentro de funções): quando a variável é declarada dentro de um bloco, sua visibilidade pode ficar 
+			                             disponível ou não.
+
+> Operadores:
+
+	> Aritméticos:
+		- +adição
+		- -subtração
+		- *multiplicação
+		- /divisão real
+		- %resto da divisão
+		- **potenciação
+	
+	> Relacionais:
+		- >maior que
+		- <menor que
+		- >= maior ou igual a 
+		- <= menor ou igual a
+		- != diferente
+		- == igual
+		- !== estritamente diferente (valor e tipo)
+		- === estritamente igual (valor e tipo)
+
+	> Lógicos:
+		- && = e == and
+		- || = ou == or
+		- ! = não == not
+
+
+Manipulando Arrays:
+	
+	- forEach() - executa um valor de cada vez dentro do array (igual ao for in, python)
+		>Exemplo: array.forEach(function(item, index){console.log(item, index)}
+
+	- push() - adiciona item no fim do array
+	- pop() - remove o último item do array
+	- shift() - remove o primeiro item do array
+	- unshift() - adiciona item no início do array
+	- indexOf() - retorna a posição do elemento solicitado
+	- splice() - remove ou substitui um item dada a posição
+	- slice() - retorna uma parte de um array existente
+
+
+> Objetos:
+
+	São dados que possuem propriedades valores que definem suas características, devem ser declarados entre {chaves}
+
+ 		Exemplo: var xicara = {
+					cor: 'azul',
+					tamanho: 'p',
+					funcao: tomarCafe()
+				}
+
+	É possível acessar as propriedades dos objetos utilizando o termo "variavel.propriedade"
+		
+		Exemplo: console.log(xicara.cor)
+		Retornará: 'azul'
+
+
+> Estruturas Condicionais:
+
+	Estrutura de decisão:
+
+  if:
+	if(var > 0) {
+		ação;
+	} else if (var 2 < 0) {
+		ação;
+	} else {
+		ação;
+	}
+	
+
+  switch/case:
+	switch (var) {                         ------> cria um loop infinito se não der break apois cada <case>
+		case var = var1 > var 2;
+			ação;
+			break;
+		case var = var 2 > var 1;
+			ação;
+			break;
+		default;                   	   ------> se nenhum dos casos forem atendidos, irá para o default
+			ação;
+		}
+
+
+> Estruturas de Repetição:	-----> var++, significa que incrementará 1 a cada loop naquela variável
+					|
+  For: 				|		  ------> executa um condição até que ela seja falsa (como while *Python*)
+	for(var = 0; var < 10; var++) {	  ------> é possível declacar uma variável contadora dentro do for
+		ação;					  ------> imprime a posição como número
+	}
+
+  For/in:						  ------> igual ao for in Python
+	for(let indice in array(ou object)) {	  
+		ação;					  ------> imprime a posição como string
+	}
+	
+  For/of:						  ------> repetição a partir de um valor
+	for(i of array(não funciona object)) {
+		ação;					  ------> imprime os valores dentro do array
+	}
+
+  While:
+	var a = 0
+
+	while (a < 10) {
+		a++;
+		console.log(a);
+	}
+
+  Do/While:						  ------> A execução é feita antes da condição
+	var a = 0
+	do {
+		a++;
+		console.log(a);
+	} while (a < 10)
+
+
+> Funções e suas particularidades
+
+	- Sintaxe da função:
+		
+	  function funcao() {
+		ação;
+	  	}
+		
+	  funcao();
+
+
+	- Função com parâmetro:
+	
+	  function funcao(parametro1, parametro2) {
+		ação;
+		}
+
+	  funcao(parametro1, parametro2);
+
+	- Funções Declarativas:
+		
+		Possuem o uso mais comum, deve ser usada através do termo "function"
+	e é obrigatório dar um nome para essa função, seguido de "()" e "{}".
+
+		Exemplo: 
+
+			function funcao() {
+				console.log("Hello World!");
+	  			}
+		
+	  		funcao();
+
+	- Funções de expressão:
+		
+		A função é declarada dentro de uma variável e já atribui o valor a ela,
+	não é obrigatório dar uma nome à esta função, podendo utilizar a variável
+	seguida de "()" e "{}".
+
+		Exemplo: 
+
+			var a = function() {
+				console.log("Hello World!");
+				}
+			a();
+
+	- Arrow Function:
+	
+		São funções de expressão de sintaxe curta e são anônimas (por isso não
+	podem ser nomeadas). É declarada dentro de uma variável, seguida de "= () => {}".
+
+		Exemplo: 
+
+			var a = () => {
+				console.log("Hello World!");
+				}
+			a();
+
+
+Algumas funções nativas do JS:
+
+Number() - Converte valores em números
+Prompt() - Registra entradas de usuário (igual ao input() *Python*)
+Alert() - Mostra mensagem ao usuário (como pop-up na página)
+Template Strings - Usar strings junto com expressões ou variáveis (igual ao fstring *Python*)
+
+
+

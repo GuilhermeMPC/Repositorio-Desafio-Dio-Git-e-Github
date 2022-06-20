@@ -1,0 +1,47 @@
+------------
+ JavaScript
+------------
+
+Termos:
+
+Assets --> Arquivos que não são HTML, como js, imagens, vídeos...
+	-> Fazer pasta com este nome no VSCode e dentro da pasta separar por subpastas, como JS, CSS, etc.
+
+
+
+
+> Com o JavaScript é possível desenvolver aplicações:
+	- Web
+	- Mobile
+	- Smartwatch
+	- Games
+	- Internet of Thing (Server-side, ex: Alexa)
+	- APIs
+
+
+> Para imprimir o resultado no Terminal, utiliza-se a função:
+
+		console.log(Parâmetro)
+
+
+> Para colocar o arquivo js na sua página HTML, dentro do <head> utilizar o termo:
+
+	<script src="localdoarquivo"></script
+
+	> Para importar arquivo css, utilizar no <head>:
+		
+		<link rel="stylesheet" href="localdoarquivo">
+
+
+
+> DOM: Document Object Model
+	> Estrutura de elementos da página.
+	> Podemos alterar a estrutura dos elementos utilizando o terminal direto no navegador.
+
+
+
+
+
+
+
+

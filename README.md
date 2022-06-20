@@ -21,9 +21,8 @@ Aqui listarei as aulas que já tive e dentro de cada pasta haverá o conteúdo a
 
 ## Módulo III - Javascript [ ]
 
-- IDE Instalação e Configuração (Visual Studio Code) [ ]
-- Introdução ao JavaScript [ ]
-- Sintaxe Básica em JavaScript [ ]
+- Introdução ao JavaScript [X]
+- Sintaxe Básica em JavaScript [X]
 - Sintaxe e Operadores [ ]
 - Variáveis e Tipo [ ]
 - Funções [ ]
