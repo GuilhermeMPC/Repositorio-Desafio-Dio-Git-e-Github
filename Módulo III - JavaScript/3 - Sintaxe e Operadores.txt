@@ -1,0 +1,58 @@
+> Operadores mais populares do JavaScript:
+
+	- Servem para manipular um valor ou validar uma condição, os tipos
+dos operadores são:
+		
+		- Aritimética
+		- Atribuição
+		- Comparação
+		- Lógica
+		- Condicional
+
+
+> Operadores de Atribuição
+
+	- =	  --> atribui um valor à variável
+	- +=    --> Equivalente a x = x + y
+	- *=    --> Equivalente a x = x * y
+	- /=    --> Equivalente a x = x / y
+	- %=    --> Equivalente a x = x % y
+
+> Operadores de Aritimética
+
+	- +     --> Adição
+	- -     --> Subtração
+	- *     --> Multiplicação
+	- **    --> Exponencial
+	- /     --> Divisão
+	- %     --> Módulo
+	- ++    --> Incrementar 1 (x=0 => x++ = 1)
+	- --    --> Decrementar 1 (x=0 => x-- = -1)
+
+> Operadores de Comparação:
+
+	- ==    --> Igual a
+	- ===   --> Mesmo valor e tipo
+	- !=    --> Diferente
+	- !==   --> Valores e tipos diferentes
+	- >     --> Maior que
+	- <     --> Menor que
+	- >=    --> Maior ou igual
+	- <=    --> Menor ou igual
+
+> Operadores de Lógica:
+
+	- &&    --> "e"
+	- ||    --> "ou"
+	- !     --> "não"
+
+> Operadores Condicionais:
+
+	- if ternário:
+		
+		- (condição) ? expressão1 : expressão2
+		    |  |             |           |
+		    |  |____true_____|           |
+		    |                            |
+                |___________false____________|                  
+		

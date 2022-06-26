@@ -1,0 +1,60 @@
+-----------------------
+ JavaScript Assíncrono
+-----------------------
+
+> Assincronicidade:
+
+	- Assincrono: é algo que não ocorre ou não se efetiva ao mesmo tempo.
+
+		- Por padrão, o JavaScript roda de maneira síncrona. Isso quer dizer
+que ele executará uma tarefa, aguarda a resposta e então executa outra tarefa.
+
+
+> Promises:
+
+	É um objeto de processamento assíncrono. Inicialmente, seu valor é
+desconhecido. Ela pode, então, ser resolvida ou rejeitada.
+
+	1) Pending: É o início das promise, quando ainda não foi executada, após
+ser executada pode ter dois estados:
+	
+		2) Fulfilled: É quando a promise é aceita.
+		3) Rejected: Quando a promise é rejeitada.
+
+	- Estrutura:
+
+		Para iniciar se utiliza "new Promise(resolve, reject) {}"
+
+	- Async:
+
+		Palavra utilizada para definir uma função assíncrona:
+				async function função() {}
+
+	- Await:
+	
+		Para obter o resultado da promise, é necessário criar o 'await' depois.
+Assim que a promisse for completa, ele irá pausar o código e executar as ações
+que estiverem no bloco await. Essas ações necessitam iniciar com o termo .then()
+ou com .catch().
+		
+		.then(ação): executa a ação se a promise for aceita.
+		.catch(ação): executa a ação se a promise for rejeitada.
+
+
+> APIs:
+
+	Significa "Application Programming Interface". É uma forma de intermediar
+os resultados do back-end com o que é apresentado no front-end. Por exemplo,
+enviar dados de um banco de dados para um aplicativo de celular.
+
+	- JSON: JavaScript Object Notation
+
+		É muito comum que APIs retornem seus dados no formato .json,
+portanto precisamos tratar esses dados quando os recebermos. Possui o formato
+de objeto.
+
+	- Fetch(url, options): 
+	
+		É o método utilizado para interpretar APIs, ele retorna uma promise.
+Então é possível utilizar o encadeamento .then. Sempre é necessário converter a
+resposta para .json.

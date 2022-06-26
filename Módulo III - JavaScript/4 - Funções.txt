@@ -1,0 +1,121 @@
+---------
+ Funções
+---------
+
+> Função Anônima:
+
+	Uma variável pode armazenar uma função, dessa forma, não será necessário
+normear a função, pois a própria variável terá o nome da função.
+		EX:
+	soma = function(a,b) {
+		return a + b
+	
+	soma(1,2) // retornará 4
+	soma(2,7) // retornará 9
+	}
+
+	
+> Função Autoinvocável:
+	
+	É uma função anônima entre parênteses, seguida por outro par de parênteses,
+que representa sua chamada.
+
+	Ex: 
+	(
+	  function () {
+		(let name = "Hello World!")
+		return name;
+		}
+	)();  ---> pode se colocar parâmetros dentro deste "()"
+
+
+> Callbacks:
+
+	São funções passadas como parâmetros de outras funções. Dessa forma
+é possível ter maior controle da ordem de chamadas. Segue o padrão:
+		
+	let variavel = function(funcao1, parametro1, parametro2)
+
+__________________________
+ Arrays dentro de funções
+--------------------------
+
+> Arguments:
+	
+	Um array com todos os parâmetros passados quando a função foi invocada.
+		
+		Ex:
+	function findMax() {
+		let max = -Infinity;  ----> garante que poderemos enviar numeros + e -
+
+		for(let i = 0; i < arguments.lenght; i++) {
+			if (arguments[i] > max) {
+				max = arguments[i]:
+				}
+			}
+		return max;
+	}
+
+	Neste caso, podem ser enviados uma quantidade indeterminada de parâmetros,
+ele executará cada um deles e trará o resultado.
+	(OBS: se no final de uma função retornar "arguments", ele retornará um
+array com todos os parâmetros).
+
+
+
+> Spread:
+
+	Transforma elementos que fazem parte de um array, em parâmetros indepen-
+dentes. Para utilizar é só colocar reticências dentro da função antes do parâmetros,
+	Ex:
+
+	const array = [1,2,3]
+	funcao(...array)
+
+> Rest:
+	Faz o contrário do spread, se utiliza ao declarar a função. Cada vez que a
+função é rodada, ele anexa os parâmetros utilizados dentro de um array.
+
+_______________________________
+   Objects dentro de funções
+-------------------------------
+
+> Object Destructing:
+
+	Entre chaves {}, podemos filtrar apenas os dados que nos interessam em
+um objeto dentro dos parâmetros.
+
+	Ex:
+const user {
+  id: 42,
+  displayName: 'jdoe'
+  fullName: {
+    firstName: 'John'
+    lastName: 'Doe'
+  }
+};
+
+function UserId({id}) {
+  return id;
+}
+
+function getFullName({fullName: {firstName: first, lastName: last}}) {
+  return `${first} ${last}`
+}
+
+userId(user)
+// 42
+
+getFullName(user)
+// John Doe
+
+
+______
+ This
+------
+
+> A palavra 'this' é uma referência de contexto. Equivale ao objeto pai, daquele
+contexto. Caso haja mais de um objeto pai dentro do contexto, é possível utilizar
+o método .call(nomeDoObjeto) para escolher qual objeto utilizar ou o método
+.apply (a difença é que quando invocar os parâmetros para a função, neste caso,
+eles serão passados em uma array)

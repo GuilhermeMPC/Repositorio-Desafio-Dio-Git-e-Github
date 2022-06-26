@@ -1,0 +1,31 @@
+--------------
+ React Native
+--------------
+
+	- O React Native é um framework que traz diversos componentes e padronizações,
+que possibilitam o desenvolvimento de aplicações mobile.
+
+	- O RN é cross-plataform, isso quer dizer, você pode desenvolver um aplicativo
+com o mesmo código para diferentes plataformas.
+
+
+> Documentação
+
+	Para consultar os componentes e APIs, há toda a documentação no site
+reactnative.dev, onde explicam toda a utilização de cada ferramenta e onde pode ser
+utilizada.
+
+> Instalação
+
+	Para instalar o React Native são necessários vários pacotes:
+
+		- Choco
+		- Node
+		- Java
+		- Yarn
+		- Android Studio
+		- adb
+
+	Para iniciar um projeto no RN, vá no terminal, localize a pasta onde ficará
+o projeto e utilize o comando npx react-native init nomeDoProjeto
+

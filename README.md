@@ -19,19 +19,27 @@ Aqui listarei as aulas que já tive e dentro de cada pasta haverá o conteúdo a
 
 
 
-## Módulo III - Javascript [ ]
+## Módulo III - Javascript [X]
 
 - Introdução ao JavaScript [X]
 - Sintaxe Básica em JavaScript [X]
-- Sintaxe e Operadores [ ]
-- Variáveis e Tipo [ ]
-- Funções [ ]
-- Debugging e Error Handling [ ]
-- JavaScript Assíncrono [ ] 
-- Orientação a objetos [ ]
-- Manipulando a D.O.M com JavaScript [ ]
+- Sintaxe e Operadores [X]
+- Variáveis e Tipo [X]
+- Funções [X]
+- Debugging e Error Handling [X]
+- JavaScript Assíncrono [X] 
+- Orientação a objetos [X]
+- Manipulando a D.O.M com JavaScript [X]
 
 
 
+## Módulo III - React Native [X]
 
+- Introdução ao React Native [X]
+- Construindo um App usando Sensor de Movimento com React Native [X]
+- Criando aplicações móveis multiplataforma com React Native [X]
+
+
+
+### Bootcamp Finalizado!
 

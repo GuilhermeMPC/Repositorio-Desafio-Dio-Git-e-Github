@@ -1,0 +1,54 @@
+----------------------
+ Orientação a Objetos
+----------------------
+
+> Introdução:
+
+	Os programas são "objetos" que possuem uma série de propriedades.
+
+	- Pilares:
+
+		- Herança:
+			Podemos ter objetos-filhos que herdam propriedades e métodos
+dos objetos-pais, mas eles também possuem suas propriedades próprias.	
+		
+		- Polimorfismo:
+			São diferentes objetos-filhos que herdam métodos da classe-pai,
+mas que o resultado desses métodos são diferentes entre cada objeto
+	(Exemplo: Falar, cada animal faz um som diferente para a mesma ação.)
+
+		- Encapsulamento:
+			Consiste no conceito de que cada classe tem propriedades e
+métodos independentes do restante do código. Se a propriedade sofrer alguma
+alteração, ela irá mudar apenas aquela classe.
+
+		- Abstração: 
+			É pegar um objeto complexo e ir divindo-o em partes menores
+para facilitar o entendimento. É generalizar cada vez mais.
+
+
+> JavaScript Orientado a Objetos:
+
+	> Protótipos:
+
+		Todos os objetos Javascript herda propriedades e métodos de um
+protótipo. É o esqueleto dos objetos. O objeto Object.prototype está no topo
+desta cadeia.
+		É possível visualizar as funções possíveis dentro daquele objeto
+através do prototype.	
+
+	> Classes:
+
+		Nativamente, não existem classes no JavaScript. Mas foi criado
+o método class que facilita a escrita, só que o que acontece por trás é feito
+com objetos e protótipos.
+
+		- constructor(): constrúi a classe e define o tipo(type) e se 
+houver parâmetro, ele atribuirá à valores dentro dessa classe.
+
+		- getter e setter: Serve para puxar atributo
+			get: recebe uma propriedade
+			set: determina uma nova propriedade
+
+		-  super(): Envia a propriedade do constructor() filho para o pai,
+assim obterá o resultado para aquele filho sem escrever novamente a ação.

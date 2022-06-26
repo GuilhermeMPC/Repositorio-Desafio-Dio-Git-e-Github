@@ -1,0 +1,56 @@
+------------------------------------
+ Manipulando a D.O.M com JavaScript
+------------------------------------
+
+> O que é DOM?
+
+	Document Object Model, é um padrão de como acessar e modificar os elementos
+HTML de uma página. (É um arquivo HTML)
+
+> Qual a diferença entre DOM e BOM?
+
+	BOM: Browser Object Model.
+
+	O BOM é um nível acima de DOM (o window), onde existem todos os elementos do
+browser, não apenas da página que você está acessando.
+
+
+> Métodos para manipular o DOM:
+
+	- document.getElementById('tituloDoId');  --> Busca o elemento do Id
+que foi selecionado no parâmetro.
+
+	- document.getElementByTagName('li'); --> Seleciona os elementos que possuem
+a tag selecionada no parâmetro e cria um array com as informações.
+
+	- document.getElementByClassName('tituloDaClasse') --> Seleciona os elementos
+que possuem a classe selecionada no parâmetro e também cria um array.
+
+	- document.querySelectorAll('.primeira-classe .segunda-classe');
+		--> É possível fazer uma busca com mais filtros, onde cada um dos
+parâmetros é um filtro.
+
+	Adicionar e deletar elementos:
+
+		- document.createElement(element) --> Cria um novo elemento HTML
+		- document.removeChild(element) --> Remove um elemento
+		- document.appendChild(element) --> Adiciona um elemento
+		- document.replaceChild(new, old) --> Substitui um elemento
+
+
+> Eventos:
+
+	Ações que usuário faz na página.
+
+  - Tipos de eventos:
+
+	Eventos de mouse: mouseover, mouseout
+	Eventos de click: click, dbclick
+	Eventos de atualização: Change, load
+
+  - Acionando Enventos:
+	
+	.addEventListener("evento", outraFuncao): 
+		Diretamente no Javascript, cria um evento que vai ser acionado no
+momento em que o usuário realizar determinada ação.
+

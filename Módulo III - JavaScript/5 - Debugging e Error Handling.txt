@@ -1,0 +1,50 @@
+---------------------------- 
+ Debugging e Error Handling
+----------------------------
+
+> Tipos de erros:
+
+	- Error do ECMAScript:
+		
+		Erro que ocorre em tempo de execução, mostra se houve algum erro
+de sintaxe, se alguma variável não foi declarada, se faltou um ";" e etc.
+
+	
+	- DOMException:
+		
+		Ocorre quando estamos relacionando nosso código JavaScript a uma
+página da web. São erros de estrutura de elementos dentro de uma página web.
+
+
+> Tratando erros:
+
+	- Throw: 
+
+	Executa um erro caso uma condição seja atendida. É útil para não permitir
+ que elementos inválidos passem por uma estrutura de seleção.
+
+	Ex: 
+		if (!string) throw "String Inválida";
+		/____ dessa forma, aparecerá um erro no console com esse título.
+
+
+	- Try/Catch:   ----> Igual ao Try/Except do Python
+	
+	O console tenta executar a ação que está dentro do Try, caso ocorra um
+erro, é possível contorná-lo e executar uma outra ação ao invés de parar a
+execução de todo o código.
+
+	- Finally: 
+	
+	É uma instrução que vai ser executada independente se for identificado um
+erro ou não. É colocado após o Try/Catch.
+
+
+> Criando Erros Personalizados:
+
+	É possível manipular a mensagem de erro do JavaScript através da função
+new Error(), no qual é necessário declarar uma constante com o valor da função e
+a mensagem do erro dentro do parâmetro.
+
+	
+			
